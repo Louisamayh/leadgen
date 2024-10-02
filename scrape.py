@@ -9,12 +9,6 @@ chromedriver_path = '/Users/louisamayhanrahan/louscode/scrape/chromedriver/chrom
 service = Service(chromedriver_path)
 driver = webdriver.Chrome(service=service)
 
-# Optional: Run Chrome in headless mode (no GUI)
-# from selenium.webdriver.chrome.options import Options
-# chrome_options = Options()
-# chrome_options.add_argument('--headless')
-# driver = webdriver.Chrome(service=service, options=chrome_options)
-
 # Set an implicit wait time
 driver.implicitly_wait(60)
 
